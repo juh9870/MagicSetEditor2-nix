@@ -17,6 +17,8 @@ pkgs.stdenv.mkDerivation rec {
     mkdir -p $out/bin
     cp ./magicseteditor $out/bin/
 
+    cd ..
+
     # Install the icon
     mkdir -p $out/share/icons/hicolor/256x256/apps
     cp ./resource/icon/app.ico $out/share/icons/hicolor/256x256/apps/magicseteditor.ico
