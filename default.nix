@@ -16,6 +16,14 @@ pkgs.stdenv.mkDerivation rec {
   installPhase = ''
     mkdir -p $out/bin
     cp ./magicseteditor $out/bin/
+
+    # Install the icon
+    mkdir -p $out/share/icons/hicolor/256x256/apps
+    cp ./resource/icon/app.ico $out/share/icons/hicolor/256x256/apps/magicseteditor.ico
+
+    # Install the desktop file
+    mkdir -p $out/share/applications
+    cp ./magicseteditor.desktop $out/share/applications/
   '';
 
   meta = with pkgs.lib; {

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Magic Set Editor
+Exec=magicseteditor
+Icon=magicseteditor
+Comment=Magic Set Editor is a program that allows users to design custom cards for a number of popular trading card games, though it was originally designed for, and primarily supports, Magic: the Gathering, hence the name. With MSE, you can create anything from individual cards to whole custom expansions, render your cards as image files, and even export sets to play with them using programs like LackeyCCG. Originally developed by Twan van Laarhoven, the program is now maintained by a dedicated fan community, which continually updates it with new card templates and data updates.
+Categories=Utility;
